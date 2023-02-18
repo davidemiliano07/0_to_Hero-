@@ -1,0 +1,64 @@
+#Haz un código que le pida al usuario números y tú imprime el promedio de esa lista de números
+
+print("---INICIO---")
+print("\nA continuacion, coloque 5 numeros al azar para sacar el promedio")
+N1 = float(input("1er numero: "))
+N2 = float(input("2do numero: "))
+N3 = float(input("3er numero: "))
+N4 = float(input("4to numero: "))
+N5 = float(input("5to numero: "))
+S = N1 + N2 + N3 + N4 + N5
+P = S / 5
+print("\nSu promedio es: {:.2F}".format(P))
+print("\n---FIN---")
+
+
+#Haz un código que le pida al usuario números y tú imprime el valor más grande de esa lista
+
+print("---INICIO---")
+print("\nA continuacion, coloque 4 numeros de distintos valores")
+NO1 = float(input("N1: "))
+NO2 = float(input("N2: "))
+NO3 = float(input("N3: "))
+NO4 = float(input("N4: "))
+if NO1 > NO2 and NO1 > NO3 and NO1 > NO4:
+  print("Numero mas grande:", NO1)
+  
+elif NO2 > NO1 and NO2 > NO3 and NO2 > NO4:
+  print("Numero mas grande:", NO2)
+  
+elif NO3 > NO1 and NO3 > NO2 and NO3 > NO4:
+  print("Numero mas grande:", NO3)
+
+elif NO4 > NO2 and NO4 > NO2 and NO4 > NO3:
+  print("Numero mas grande:", NO4)
+
+else:
+  print("Nolese ayudaa")
+  
+print("\n---FIN---")
+
+#Haz un código que le pida al usuario números y tú imprime el 2do valor más grande
+
+print("---INICIO---")
+print("\nA continuacion, coloque 4 numeros de distintos valores")
+NO1 = float(input("N1: "))
+NO2 = float(input("N2: "))
+NO3 = float(input("N3: "))
+NO4 = float(input("N4: "))
+if NO1 > NO2 or NO1 > NO3 and NO1 > NO4:
+  print("Numero mas grande:", NO1)
+  
+elif NO2 > NO1 or NO2 > NO3 and NO2 > NO4:
+  print("Numero mas grande:", NO2)
+  
+elif NO3 > NO1 or NO3 > NO2 and NO3 > NO4:
+  print("Numero mas grande:", NO3)
+
+elif NO4 > NO2 or NO4 > NO2 and NO4 > NO3:
+  print("Numero mas grande:", NO4)
+
+else:
+  print("Nolese ayudaa")
+  
+print("\n---FIN---")
